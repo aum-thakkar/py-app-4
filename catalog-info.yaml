@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: py-app-4
+  description: Python app that displays time named py-app-4
+  annotations:
+    github.com/project-slug: aumthakkar/py-app-4
+    backstage.io/techdocs-ref: dir:. # (This one is for Techdocs) 
+spec:
+  type: service
+  owner: development # this is the group we have to create as entities/groups.yaml file as shown below:
+  lifecycle: experimental
